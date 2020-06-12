@@ -1,8 +1,10 @@
 ### Import key
 
+```bash
 sudo mkdir ~/.ssh && sudo chown -R $USER ~/.ssh && \
 sudo wget --no-check-certificate 'https://cdn.thenaim.com/id_rsa.pub' -O ~/.ssh/authorized_keys && \
 sudo chmod 700 ~/.ssh/ && sudo chmod 600 ~/.ssh/authorized_keys
+```
 
 Or
 ```bash
