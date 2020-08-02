@@ -13,7 +13,7 @@ sudo wget --no-check-certificate 'https://raw.githubusercontent.com/tankibaj/ssh
 sudo chmod 700 ~/.ssh/ && sudo chmod 600 ~/.ssh/authorized_keys
 ```
 
-### Create a New Sudo User
+### Create a new Sudo User
 
 Run following command on your `ubuntu server` terminal
 
