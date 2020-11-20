@@ -45,7 +45,7 @@ Follow the prompts to set the new user’s information. It is fine to accept the
 Use the usermod command to add the user to the sudo group. By default, on Ubuntu, members of the `sudo group` have `sudo` privileges.
 
 ```bash
-usermod -aG sudo username
+usermod -aG sudo naim
 ```
 
 
