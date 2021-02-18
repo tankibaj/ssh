@@ -1,9 +1,9 @@
 ## Create a new sudo user
 
 ```bash
-adduser naim  && \
-usermod -aG sudo naim  && \
-echo 'naim ALL=(ALL) NOPASSWD:ALL' >>/etc/sudoers  && \
+sudo adduser naim  && \
+sudo usermod -aG sudo naim  && \
+sudo bash -c "echo 'naim ALL=(ALL) NOPASSWD:ALL' >>/etc/sudoers"  && \
 su - naim
 sudo apt update
 ```
